@@ -12,6 +12,11 @@
 [![MongoDB](https://img.shields.io/badge/MongoDB-6.0.0-47A248?style=flat&logo=mongodb)](https://www.mongodb.com/)
 [![Material-UI](https://img.shields.io/badge/Material--UI-5.14.0-007FFF?style=flat&logo=mui)](https://mui.com/)
 
+# 🚀 Loopr Backend API Collection
+
+**Postman Collection Link:** 
+https://www.postman.com/sunshine-9483/workspace/loopr/collection/33122109-db47a29d-75d6-4627-b9d4-0be758c9e79c?action=share&source=copy-link&creator=33122109
+
 </div>
 
 > 🚀 A comprehensive full-stack personal finance management application that helps users track expenses, manage budgets, and gain insights into their financial habits with modern web technologies.
