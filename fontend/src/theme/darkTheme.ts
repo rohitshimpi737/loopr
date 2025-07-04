@@ -17,9 +17,7 @@ export const darkTheme = createTheme({
       default: '#0B0E11', // Very dark background
       paper: '#161B22', // Card background
     },
-    surface: {
-      main: '#161B22',
-    },
+
     text: {
       primary: '#FFFFFF',
       secondary: 'rgba(255, 255, 255, 0.65)',
@@ -107,36 +105,6 @@ export const darkTheme = createTheme({
         },
       },
     },
-    MuiTableHead: {
-      styleOverrides: {
-        root: {
-          backgroundColor: '#161B22',
-          '& .MuiTableCell-head': {
-            backgroundColor: '#161B22',
-            color: 'rgba(255, 255, 255, 0.65)',
-            fontWeight: 600,
-            fontSize: '0.875rem',
-            textTransform: 'uppercase',
-            letterSpacing: '0.5px',
-          },
-        },
-      },
-    },
-    MuiTableCell: {
-      styleOverrides: {
-        root: {
-          borderBottom: '1px solid rgba(255, 255, 255, 0.05)',
-          color: '#FFFFFF',
-          padding: '16px',
-        },
-        head: {
-          backgroundColor: '#161B22',
-          color: 'rgba(255, 255, 255, 0.65)',
-          fontWeight: 600,
-          fontSize: '0.875rem',
-        },
-      },
-    },
     MuiButton: {
       styleOverrides: {
         root: {
@@ -192,15 +160,7 @@ export const darkTheme = createTheme({
         },
       },
     },
-    MuiSelect: {
-      styleOverrides: {
-        root: {
-          backgroundColor: '#161B22',
-          color: '#FFFFFF',
-          borderRadius: '8px',
-        },
-      },
-    },
+
     MuiMenu: {
       styleOverrides: {
         paper: {
@@ -265,18 +225,7 @@ export const darkTheme = createTheme({
         },
       },
     },
-    MuiLinearProgress: {
-      styleOverrides: {
-        root: {
-          backgroundColor: 'rgba(255, 255, 255, 0.1)',
-          borderRadius: '4px',
-        },
-        bar: {
-          background: 'linear-gradient(90deg, #00D4AA 0%, #00B894 100%)',
-          borderRadius: '4px',
-        },
-      },
-    },
+
   },
   typography: {
     fontFamily: '"Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica", "Arial", sans-serif',
@@ -338,14 +287,10 @@ export const darkTheme = createTheme({
 // Extend the theme interface to include custom colors
 declare module '@mui/material/styles' {
   interface Palette {
-    surface: {
-      main: string;
-    };
+    // Custom palette extensions can be added here if needed
   }
 
   interface PaletteOptions {
-    surface?: {
-      main: string;
-    };
+    // Custom palette options can be added here if needed
   }
 }

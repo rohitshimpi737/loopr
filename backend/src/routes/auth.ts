@@ -1,3 +1,5 @@
+/// <reference path="../types/global.d.ts" />
+
 import express, { Request, Response, NextFunction } from 'express';
 import bcrypt from 'bcryptjs';
 import UserModel from '../models/User';

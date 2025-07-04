@@ -120,6 +120,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           🌟 Penta
         </Typography>
       </Toolbar>
+
       <List sx={{ pt: 3, px: 2 }}>
         {menuItems.map((item) => (
           <ListItem key={item.text} disablePadding sx={{ mb: 1 }}>
@@ -178,6 +179,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <Box sx={{ display: 'flex', backgroundColor: '#0B0E11', minHeight: '100vh' }}>
       <CssBaseline />
+      {/* Header */}
       <AppBar
         position="fixed"
         sx={{
@@ -249,6 +251,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </Box>
         </Toolbar>
       </AppBar>
+      
       <Box
         component="nav"
         sx={{ width: { sm: drawerWidth }, flexShrink: { sm: 0 } }}

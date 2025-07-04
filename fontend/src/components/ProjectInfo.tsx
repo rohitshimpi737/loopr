@@ -43,19 +43,19 @@ const ProjectInfo: React.FC = () => {
     },
     {
       name: 'LinkedIn',
-      url: 'https://linkedin.com/in/rohitshimpi737',
+      url: 'https://www.linkedin.com/in/rohit-shimpi-9940b0253/',
       icon: <LinkedIn />,
       color: '#0077B5',
     },
     {
       name: 'Portfolio',
-      url: 'https://rohitshimpi.dev',
+      url: 'https://rohit-drab.vercel.app/',
       icon: <Web />,
       color: '#1976d2',
     },
     {
       name: 'Email',
-      url: 'mailto:rohitshimpi737@gmail.com',
+      url: 'mailto:shimpirohit02@gmail.com',
       icon: <Email />,
       color: '#EA4335',
     },
@@ -66,14 +66,14 @@ const ProjectInfo: React.FC = () => {
     { name: 'TypeScript', color: '#3178C6' },
     { name: 'Node.js', color: '#339933' },
     { name: 'MongoDB', color: '#47A248' },
-    { name: 'Express', color: '#000000' },
+    { name: 'Express', color: '#0101010' },
     { name: 'Material-UI', color: '#007FFF' },
     { name: 'Vite', color: '#646CFF' },
   ];
 
   return (
-    <Card 
-      sx={{ 
+    <Card
+      sx={{
         mt: 6,
         background: 'linear-gradient(135deg, rgba(102, 126, 234, 0.05) 0%, rgba(118, 75, 162, 0.05) 100%)',
         border: '1px solid',
@@ -163,10 +163,10 @@ const ProjectInfo: React.FC = () => {
             </Stack>
             <Stack spacing={1}>
               {features.map((feature) => (
-                <Stack 
-                  key={feature.name} 
-                  direction="row" 
-                  spacing={1.5} 
+                <Stack
+                  key={feature.name}
+                  direction="row"
+                  spacing={1.5}
                   alignItems="center"
                   sx={{
                     p: 1,
@@ -206,7 +206,7 @@ const ProjectInfo: React.FC = () => {
                 About the Developer
               </Typography>
             </Stack>
-            
+
             <Stack spacing={1.5} alignItems="center">
               <Avatar
                 sx={{
@@ -220,7 +220,7 @@ const ProjectInfo: React.FC = () => {
               >
                 RS
               </Avatar>
-              
+
               <Box>
                 <Typography variant="h6" sx={{ fontWeight: 700, mb: 0.5 }}>
                   Rohit Shimpi
@@ -237,12 +237,12 @@ const ProjectInfo: React.FC = () => {
                     overlap="circular"
                     anchorOrigin={{ vertical: 'top', horizontal: 'right' }}
                     badgeContent={
-                      <Star 
-                        sx={{ 
-                          fontSize: 12, 
+                      <Star
+                        sx={{
+                          fontSize: 12,
                           color: 'gold',
                           filter: 'drop-shadow(0 0 2px rgba(255,215,0,0.5))',
-                        }} 
+                        }}
                       />
                     }
                   >

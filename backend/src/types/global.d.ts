@@ -34,8 +34,4 @@ declare module 'express-serve-static-core' {
   }
 }
 
-// Type alias for convenience
-import { Request } from 'express';
-export type AuthRequest = Request;
-
 export {};

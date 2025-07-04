@@ -14,7 +14,6 @@ export interface ITransaction extends Document {
 }
 
 const TransactionSchema: Schema = new Schema({
-  // Remove the id field since MongoDB uses _id by default
   date: {
     type: Date,
     required: true,
